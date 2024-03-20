@@ -1,0 +1,8 @@
+[Ll]ibrary/
+[Ll]oga/
+[Uu]ser[Ss]ettings/
+
+*csproj
+*.sln
+*.vscode
+*.vsconfig
