@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\CourseWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\items\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\items\\itemsdatabaseobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\itemsdatabaseobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\talktonpc\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\items\\inventoryobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\inventoryobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\talktonpc\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemsDataBaseObj.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\ItemsDataBaseObj.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\ItemsDataBaseObj.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\ItemsDataBaseObj.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items\\ItemsDataBaseObj.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:14:26.802Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Items.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\Items.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\Items.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\Items.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items\\Items.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:14:26.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InventoryObjects.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\InventoryObjects.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\InventoryObjects.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Items\\InventoryObjects.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Items\\InventoryObjects.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAA4AAAA",
+              "Title": "DialogSystem.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\DialogSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\DialogSystem.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\DialogSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\DialogSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:14:25.797Z"
+              "WhenOpened": "2024-03-21T06:32:57.235Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAcwFYAAAAHAAAA",
+              "Title": "QuestDude.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T11:01:54.767Z"
+              "WhenOpened": "2024-03-21T06:24:48.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HummanDialog.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwBgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T05:29:27.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:48:04.286Z"
             }
           ]
         }

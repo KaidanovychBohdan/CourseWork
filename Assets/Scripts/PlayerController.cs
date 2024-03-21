@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class PlayerController : MonoBehaviour
 {
-    public InventoryObjects Inventory;
+    public InventoryObject Inventory;
     public CharacterController characterController;
     public Animator animator;
     public Transform cam;
@@ -91,6 +92,6 @@ public class PlayerController : MonoBehaviour
     //}
     private void OnApplicationQuit()
     {
-        Inventory.Container.Item = new InventorySlot[64];
+        Inventory.Container.Items = new InventorySlot[40];
     }
 }
