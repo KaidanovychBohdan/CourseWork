@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestDude : MonoBehaviour, IDialogSystem
 {
     public string[] dialogReplics;
     public GameObject dialogUI;
+    public GameObject button;
     public int dialogIndex = 0;
 
     private bool isComplete = false;
@@ -33,7 +35,7 @@ public class QuestDude : MonoBehaviour, IDialogSystem
     {
         if (isComplete)
         {
-            // як≥сь додатков≥ д≥њ, €к≥ потр≥бно виконати, коли квест завершено
+            dialogIndex = 2;
         }
     }
 
@@ -48,10 +50,32 @@ public class QuestDude : MonoBehaviour, IDialogSystem
 
     public void NextReplics()
     {
-        DialogIndex++;
+        if(dialogIndex < DialogReplics.Length)
+            DialogIndex++;
+        if (!isComplete) 
+        {
+            if (DialogIndex < DialogReplics.Length - 1)
+                DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = DialogReplics[DialogIndex];
 
-        if (DialogIndex < DialogReplics.Length)
-            DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = DialogReplics[DialogIndex];
+            if(dialogIndex == 1) 
+            {
+                var btn = button.GetComponent<Button>();
+                btn.onClick.AddListener(StartQuest);
+                button.SetActive(true);
+            }
+        }
+        else 
+        {
+            DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = DialogReplics[DialogReplics.Length];
+        }
+    }
+
+    public void StartQuest() 
+    {
+        var btn = button.GetComponent<Button>();
+        btn.onClick.RemoveAllListeners();
+        button.SetActive(false);
+        Debug.Log("ѕерем≥щенн€ на ≥ншу сцену");
     }
 
     public void EndDialog()

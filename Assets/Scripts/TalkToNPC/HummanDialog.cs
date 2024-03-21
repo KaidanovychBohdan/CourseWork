@@ -47,10 +47,12 @@ public class HummanDialog : MonoBehaviour, IDialogSystem
     }
     public void NextReplics()
     {
-        DialogIndex++;
+        if (dialogIndex < DialogReplics.Length)
+        {
+            DialogIndex++;
 
-        if(DialogIndex < DialogReplics.Length)
             DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = DialogReplics[DialogIndex];
+        }
     }
 
     public void EndDialog()
