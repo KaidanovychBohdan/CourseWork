@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class QuestDude : MonoBehaviour, IDialogSystem
 {
+    public GameObject respawnPos;
     public string[] dialogReplics;
     public GameObject dialogUI;
     public GameObject button;
     public int dialogIndex = 0;
+    private GameObject quests;
 
     private bool isComplete = false;
 
@@ -31,6 +34,14 @@ public class QuestDude : MonoBehaviour, IDialogSystem
         set { dialogIndex = value; }
     }
 
+    private void Start()
+    {
+        quests = GameObject.Find("Quest");
+        dialogUI = GameObject.Find("DialogPanel");
+        button = GameObject.Find("Accept");
+        StartCoroutine(WaitForASec());
+    }
+
     private void FixedUpdate()
     {
         if (isComplete)
@@ -47,7 +58,12 @@ public class QuestDude : MonoBehaviour, IDialogSystem
             DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = DialogReplics[DialogIndex];
         }
     }
-
+    private IEnumerator WaitForASec()
+    {
+        yield return new WaitForSeconds(2f);
+        dialogUI.SetActive(false);
+        quests.SetActive(false);
+    }
     public void NextReplics()
     {
         if(dialogIndex < DialogReplics.Length)
@@ -75,11 +91,15 @@ public class QuestDude : MonoBehaviour, IDialogSystem
         var btn = button.GetComponent<Button>();
         btn.onClick.RemoveAllListeners();
         button.SetActive(false);
-        Debug.Log("Переміщення на іншу сцену");
+        DialogUI.SetActive(false);
+        respawnPos.SetActive(true);
+        quests.SetActive(true);
+        SceneManager.LoadScene(2);
     }
 
     public void EndDialog()
     {
+        respawnPos.SetActive(false);
         DialogIndex = 0;
         DialogUI.GetComponentInChildren<TextMeshProUGUI>().text = "";
         DialogUI.SetActive(false);

@@ -12,31 +12,38 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        pressFBTN.SetActive(true);
+        if(collider.gameObject.tag == "Interactable")
+            pressFBTN.SetActive(true);
     }
 
     private void OnTriggerStay(Collider collider)
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (collider.gameObject.tag == "Interactable") 
         {
-            dialogStart = true;
-            pressFBTN.SetActive(false);
-            dialogSystem = collider.gameObject.GetComponent<IDialogSystem>();
-            dialogSystem.StartDialog();
-        }
-        if (dialogStart)
-        {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                dialogSystem.NextReplics();
+                dialogStart = true;
+                pressFBTN.SetActive(false);
+                dialogSystem = collider.gameObject.GetComponent<IDialogSystem>();
+                dialogSystem.StartDialog();
+            }
+            if (dialogStart)
+            {
+                if (Input.GetKeyDown(KeyCode.F))
+                {
+                    dialogSystem.NextReplics();
+                }
             }
         }
     }
 
     private void OnTriggerExit(Collider collider)
     {
-        pressFBTN.SetActive(false);
-        dialogSystem.EndDialog();
-        dialogStart = false;
+        if (collider.gameObject.tag == "Interactable")
+        {
+            pressFBTN.SetActive(false);
+            dialogSystem.EndDialog();
+            dialogStart = false;
+        }
     }
 }

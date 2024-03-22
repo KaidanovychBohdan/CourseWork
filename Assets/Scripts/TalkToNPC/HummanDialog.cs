@@ -33,6 +33,7 @@ public class HummanDialog : MonoBehaviour, IDialogSystem
     private void Start()
     {
         animator = GetComponent<Animator>();
+        dialogUI = GameObject.Find("DialogPanel");
     }
 
     public void StartDialog()

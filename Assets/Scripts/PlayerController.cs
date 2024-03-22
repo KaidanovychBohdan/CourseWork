@@ -1,11 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
-using static UnityEditor.Progress;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    private float _maxHealth;
+    [SerializeField] private float _health;
+    [SerializeField] private float _damage;
+    [SerializeField] private float _def;
+    [SerializeField] private int _coins;
+
+    public float Damage
+    {
+        get { return _damage; }
+        set { _damage = value; }
+    }
+
+    [SerializeField] private GameObject spellPrefab;
+    [SerializeField] private Transform spellPos;
+
     public InventoryObject Inventory;
     public CharacterController characterController;
     public Animator animator;
@@ -17,48 +33,76 @@ public class PlayerController : MonoBehaviour
 
     public float TurnSmothTime = 0.1f;
     private float turnSmothVelocity;
+    private bool isDead;
+    private bool isInventoryOpen;
+    [SerializeField] private GameObject ipanel;
 
     Vector3 moveVelocity;
 
-    void Update()
+    [SerializeField] private Slider slider;
+    [SerializeField] private TextMeshProUGUI coin;
+
+    private void Start()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-
-        if (characterController.isGrounded) 
+        isInventoryOpen = false;
+        DontDestroyOnLoad(this.gameObject);
+        _maxHealth = _health;
+        var normalizeHealth = _health / _maxHealth;
+        slider.value = normalizeHealth;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            animator.SetBool("IsGrounded", false);
-            moveVelocity = transform.forward * speed * Time.deltaTime;
-            if (Input.GetButtonDown("Jump")) 
-            {
-                animator.SetBool("IsGrounded", true);
-                moveVelocity.y = jumpSpeed;
+            isInventoryOpen = !isInventoryOpen;
+            ipanel.SetActive(isInventoryOpen);
+        }
+
+        if (!isDead)
+        {
+            if (!isInventoryOpen) {
+                float horizontal = Input.GetAxisRaw("Horizontal");
+                float vertical = Input.GetAxisRaw("Vertical");
+
+                Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+
+                if (characterController.isGrounded)
+                {
+                    animator.SetBool("IsGrounded", false);
+                    moveVelocity = transform.forward * speed * Time.deltaTime;
+                    if (Input.GetButtonDown("Jump"))
+                    {
+                        animator.SetBool("IsGrounded", true);
+                        moveVelocity.y = jumpSpeed;
+                    }
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        StartCoroutine(CreateSpellCoroutine());
+                    }
+                }
+                moveVelocity.y += gravity * Time.deltaTime;
+                characterController.Move(moveVelocity * Time.deltaTime);
+                if (direction.magnitude >= 0.1f && !Input.GetKey(KeyCode.LeftShift))
+                {
+                    Walk(direction);
+                }
+                else if (direction.magnitude >= 0.1f && Input.GetKey(KeyCode.LeftShift))
+                {
+                    Run(direction);
+                }
+                else if (direction.magnitude == 0)
+                {
+                    Idle();
+                } 
             }
-        }
-        moveVelocity.y += gravity * Time.deltaTime;
-        characterController.Move(moveVelocity * Time.deltaTime);
-        if (direction.magnitude >= 0.1f && !Input.GetKey(KeyCode.LeftShift))
-        {
-            Walk(direction);
-        }
-        else if (direction.magnitude >= 0.1f && Input.GetKey(KeyCode.LeftShift)) 
-        {
-            Run(direction);
-        }
-        else if(direction.magnitude == 0)
-        {
-            Idle();
         }
     }
 
     private void Idle() 
     {
-
         animator.SetBool("Run", false);
         animator.SetBool("Walk", false);
-
     }
     private void Walk(Vector3 direction)
     {
@@ -82,6 +126,41 @@ public class PlayerController : MonoBehaviour
         Vector3 moveDir = Quaternion.Euler(0f, targetAngel, 0f) * Vector3.forward;
         return moveDir;
     }
+
+    public void getDamage(float Damage) 
+    {
+        _health -= Damage;
+        var normalizeHealth = _health / _maxHealth;
+        slider.value = normalizeHealth;
+        if(_health <= 0) 
+        {
+            Die();
+        }
+    }
+    public void getCoins(int Coins)
+    {
+        _coins += Coins;
+        coin.text = _coins.ToString();
+    }
+    public void getItem(Item item)
+    {
+        Inventory.AddItem(item, 1);
+    }
+    private void CreateSpell() 
+    {
+        GameObject newSpell = Instantiate(spellPrefab, spellPos);
+
+        newSpell.transform.SetParent(null);
+    }
+    private IEnumerator CreateSpellCoroutine()
+    {
+        CreateSpell();
+        yield return new WaitForSeconds(2f);
+    }
+    private void Die() 
+    {
+        Destroy(this.gameObject);
+    }
     //public void Save()
     //{
     //    Inventory.Save();
@@ -94,4 +173,5 @@ public class PlayerController : MonoBehaviour
     {
         Inventory.Container.Items = new InventorySlot[40];
     }
+
 }

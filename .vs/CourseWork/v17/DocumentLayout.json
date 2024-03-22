@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\CourseWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\talktonpc\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\idialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\idialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +26,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDialogSystem.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\IDialogSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\IDialogSystem.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\IDialogSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\IDialogSystem.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAwwAsAAAAbAAAA",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAkwJsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T06:56:32.999Z",
+              "WhenOpened": "2024-03-22T18:02:20.1Z",
               "EditorCaption": ""
             },
             {
@@ -49,9 +45,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
               "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
               "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwDsAAAAhAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwCkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T06:24:48.687Z",
+              "WhenOpened": "2024-03-22T18:01:51.092Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +58,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
               "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
               "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwDMAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T05:29:27.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerInteract.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\PlayerInteract.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T20:48:04.286Z",
+              "WhenOpened": "2024-03-22T18:01:48.522Z",
               "EditorCaption": ""
             }
           ]
