@@ -61,8 +61,9 @@ public class QuestDude : MonoBehaviour, IDialogSystem
     private IEnumerator WaitForASec()
     {
         yield return new WaitForSeconds(2f);
-        dialogUI.SetActive(false);
         quests.SetActive(false);
+        button.SetActive(false);
+        dialogUI.SetActive(false);
     }
     public void NextReplics()
     {

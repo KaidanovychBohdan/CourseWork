@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\Unity Projects\\CourseWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\questdude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\talktonpc\\hummandialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\scriptable objects\\items\\scripts\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptable objects\\items\\scripts\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\scriptable objects\\inventory\\scripts\\inventoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptable objects\\inventory\\scripts\\inventoryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\npc\\patrolbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\patrolbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|D:\\Unity Projects\\CourseWork\\assets\\scripts\\npc\\idlebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\idlebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\npc\\chasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\chasebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|d:\\unity projects\\coursework\\assets\\scripts\\npc\\attackbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E4035B-4546-B9E4-8D51-F27A3C5102EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\attackbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,37 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAkwJsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T18:02:20.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuestDude.cs",
-              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
-              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\QuestDude.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAmwCkAAAAmAAAA",
+              "Title": "DisplayInventory.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\DisplayInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DisplayInventory.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\DisplayInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DisplayInventory.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAQwHgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T18:01:51.092Z",
+              "WhenOpened": "2024-03-23T09:18:20.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HummanDialog.cs",
               "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
@@ -60,7 +67,85 @@
               "RelativeToolTip": "Assets\\Scripts\\TalkToNPC\\HummanDialog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T18:01:48.522Z",
+              "WhenOpened": "2024-03-23T09:18:05.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemObject.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Scriptable Objects\\Items\\Scripts\\ItemObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptable Objects\\Items\\Scripts\\ItemObject.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Scriptable Objects\\Items\\Scripts\\ItemObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptable Objects\\Items\\Scripts\\ItemObject.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:17:26.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryObject.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Scriptable Objects\\Inventory\\Scripts\\InventoryObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptable Objects\\Inventory\\Scripts\\InventoryObject.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\Scriptable Objects\\Inventory\\Scripts\\InventoryObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptable Objects\\Inventory\\Scripts\\InventoryObject.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAAH8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:16:57.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatrolBehaviour.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\PatrolBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\PatrolBehaviour.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\PatrolBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\PatrolBehaviour.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:16:40.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdleBehaviour.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\IdleBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\IdleBehaviour.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\IdleBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\IdleBehaviour.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:47:18.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChaseBehaviour.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\ChaseBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\ChaseBehaviour.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\ChaseBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\ChaseBehaviour.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:16:13.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttackBehaviour.cs",
+              "DocumentMoniker": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\AttackBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\AttackBehaviour.cs",
+              "ToolTip": "D:\\Unity Projects\\CourseWork\\Assets\\Scripts\\NPC\\AttackBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\AttackBehaviour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T09:15:46.387Z",
               "EditorCaption": ""
             }
           ]

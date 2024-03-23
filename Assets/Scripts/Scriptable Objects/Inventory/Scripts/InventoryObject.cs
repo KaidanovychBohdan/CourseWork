@@ -53,7 +53,6 @@ public class InventoryObject : ScriptableObject
         item1.UpdateSlot(temp.ID, temp.item, temp.amount);
     }
 
-
     public void RemoveItem(Item _item)
     {
         for (int i = 0; i < Container.Items.Length; i++)
